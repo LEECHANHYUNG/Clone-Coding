@@ -1,5 +1,4 @@
 # 배경을 container 전체에 지정
-<br>
 ![image](https://user-images.githubusercontent.com/71697577/166893242-3ed22e75-492c-4d7a-b5f4-8b753e31d975.png)
 <br>
 - background-attachment : fixed 사용
