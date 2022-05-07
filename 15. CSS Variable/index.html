@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+    <link rel="stylesheet" href="style.css">
+    <title>CSS Variables</title>
+    <body>
+        <header id="main-header">
+            <h1>CSS Variables</h1>
+        </header>
+        <div class="container">
+            <div class="grid">
+                <div class="box">
+                    <h1>Hello World</h1>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                    Ratione consectetur earum doloremque repudiandae distinctio 
+                    totam vel, illo enim tempora! Animi quis blanditiis quod 
+                    sunt consectetur sed enim, odit repellat impedit veritatis? 
+                    Unde dicta sed ea quasi voluptatum non odio reiciendis.</p>
+                </div>
+                <div class="box">
+                    <h1>Hello World</h1>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                    Ratione consectetur earum doloremque repudiandae distinctio 
+                    totam vel, illo enim tempora! Animi quis blanditiis quod 
+                    sunt consectetur sed enim, odit repellat impedit veritatis? 
+                    Unde dicta sed ea quasi voluptatum non odio reiciendis.</p>
+                </div>
+            </div>
+        </div>
+        <!-- JS로 변수에 접근하는 방법 -->
+        <script>
+            /* Get value */
+            const box = document.querySelector('.box');
+            const boxStyles  = getComputedStyle(box);
+            const boxMainColor = boxStyles.getPropertyValue('--box-main-color');
+
+            /* Change Value */
+            const header = document.querySelector('#main-header');
+            header.style.setProperty('--header-bg-color', boxMainColor);
+        
+        </script>
+    </body>
+</html>
