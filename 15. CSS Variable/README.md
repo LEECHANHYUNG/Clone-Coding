@@ -19,7 +19,7 @@
 - 클래스를 얻어 해당 클래스의 스타일을 얻는 방법<br>
 
 #Tistory
-<a href = ""><strong>바로가기</strong></a>
+<a href = "https://lch7215.tistory.com/139"><strong>바로가기</strong></a>
 
 #Youtube
 <a href = "https://www.youtube.com/watch?v=sQUB039MG0I"><strong>바로가기</strong></a>
