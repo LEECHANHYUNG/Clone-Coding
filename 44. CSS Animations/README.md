@@ -18,6 +18,6 @@
 
 4. Tistory<br>
 
-<a href = "https://github.com/LEECHANHYUNG/Clone-Coding/tree/main/44.%20CSS%20Animations"><strong>바로가기</strong></a><br>
+<a href = "https://lch7215.tistory.com/145"><strong>바로가기</strong></a><br>
 
  
