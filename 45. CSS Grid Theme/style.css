@@ -1,0 +1,141 @@
+body{
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background: #333;
+    color: #fff;
+    font-size: 1.1em;
+    line-height: 1.5;
+    text-align: center;
+  }
+  
+  h1, h2, h3{
+    margin: 0;
+    padding: 1em 0;
+  }
+  p{
+    margin: 0;
+    padding: 1em;
+  }
+  
+  .btn{
+    display: inline-block;
+    background: #333;
+    border: 1px solid #666;
+    padding: 1em 2em;
+    color: #fff;
+    margin: 0.em 0;
+    transition: all 2s;
+    text-decoration: none;
+  }
+  .btn:hover{
+    background: #eaeaea;
+    color: #333;
+  }
+  img{
+    display: block;
+    width: 100%;
+    height: auto;
+  }
+  #showcase{
+    min-height: 450px;
+    color: #fff;
+    text-align: center;
+  }
+  
+  
+  #showcase .bg-image{
+    position: absolute;
+    background: #333 url('https://static.pexels.com/photos/248515/pexels-photo-248515.png') no-repeat center center/cover;
+    height: 450px;
+    width: 100%;
+    right: 0;
+    opacity: 0.4;
+    z-index: -1;
+  }
+  #showcase h1{
+    padding-top: 100px;
+    padding-bottom: 0px;
+  }
+  #showcase .section-a,
+  #showcase .content-wrap{
+    padding: 0 1.5em;
+  }
+  
+  /* Section-a */
+  #section-a{
+    background: #eaeaea;
+    color: #333;
+    padding-bottom: 2em;
+  }
+  /* Section-b */
+  #section-b{
+    padding: 2em 1em 1em;
+  }
+  #section-b ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  #section-b li{
+    margin-bottom: 1em;
+  }
+  #section-b .card-content{
+    background: #fff;
+    color: #333;
+    padding: 1.5em;
+  }
+  
+  /* Section-c */
+  #section-c{
+    background: #fff;
+    color: #333;
+    padding: 2em;
+  }
+  
+  #section-d .box{
+    padding: 2em;
+    color: #fff;
+  }
+  #section-d .box:first-child{
+    background: #2690d4;
+  }
+  /* Footer */
+  #main-footer{
+    padding: 2em;
+    background: #000;
+  }
+  #main-footer a{
+    text-decoration: none;
+    color: #2690d4;
+  }
+  
+  /* Grid System */
+  @media (min-width: 700px) {
+    .grid{
+      display: grid;
+      grid-template-columns: 1fr repeat(2, minmax(auto, 25em)) 1fr;
+    }
+  
+    #section-a .content-text{
+      columns: 2;
+      column-gap: 2em;
+    }
+    #section-a .conetnt-text p{
+      padding-top: 0;
+    }
+    .content-wrap,
+    #section-b ul{
+      grid-column: 2/4;
+    }  
+    .box, #main-footer div{
+      grid-column: span 2;  /* 각각의 span이 2개의 column을 갖는다. */
+    } 
+    #section-b ul {
+      display: flex;
+      justify-content: space-around;
+     }
+    #section-b li{
+      width: 31%;
+    }
+  }
+  
