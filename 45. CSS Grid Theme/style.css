@@ -14,7 +14,7 @@ body{
   }
   p{
     margin: 0;
-    padding: 1em;
+    padding: 1em 0;
   }
   
   .btn{
@@ -56,8 +56,8 @@ body{
     padding-top: 100px;
     padding-bottom: 0px;
   }
-  #showcase .section-a,
-  #showcase .content-wrap{
+  #showcase .content-wrap,
+  #section-a .content-wrap{
     padding: 0 1.5em;
   }
   
@@ -113,6 +113,7 @@ body{
   @media (min-width: 700px) {
     .grid{
       display: grid;
+      /* grid-template-columns: repeat(4, 1fr); */
       grid-template-columns: 1fr repeat(2, minmax(auto, 25em)) 1fr;
     }
   
