@@ -30,3 +30,6 @@
 - 요소를 입체적으로 변형<br>
 
 - x, y, z 축 이동<br>
+
+4. tistory <br>
+<a href = "https://lch7215.tistory.com/147"><strong>바로가기</strong></a>
