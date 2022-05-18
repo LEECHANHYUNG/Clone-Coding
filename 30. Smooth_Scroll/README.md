@@ -10,6 +10,7 @@
 2. jquery 사용<br>
 1) index.html에 minified jquery script를 넣어준다. (slim은 scoll효과가 없음) <br>
 main.js<br>
+
 $('.navbar a').on('click', function(e){
     if(this.hash !== ''){
         e.preventDefault();
