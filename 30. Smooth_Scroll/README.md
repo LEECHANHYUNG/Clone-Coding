@@ -10,7 +10,7 @@
 2. jquery 사용<br>
 1) index.html에 minified jquery script를 넣어준다. (slim은 scoll효과가 없음) <br>
 main.js<br>
-
+<br>
 $('.navbar a').on('click', function(e){
     if(this.hash !== ''){
         e.preventDefault();
@@ -25,6 +25,7 @@ $('.navbar a').on('click', function(e){
         );
     }
 });
+<br>
 <hr>
 3. github smooth scroll<br>
 <a href = "https://github.com/cferdinandi/smooth-scroll"><strong>바로가기</strong></a><br>
