@@ -7,7 +7,7 @@
 2. AOS library<br>
 <a href = "https://github.com/michalsnik/aos"><strong>바로가기</strong></a><br>
 <br>
-1) <head>에 link태그 추가
+1) head에 link태그 추가
 <br>  <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" /><br>
 <hr>
   2) body에 script태그 추가<br>
